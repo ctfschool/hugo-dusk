@@ -9,7 +9,7 @@
   </header>
 
   <div class="summary">
-    {{ .Summary }}
+    {{ printf "%.150" .Summary }}
     <a href='{{ .Permalink }}' class="rmore">Read more ...</a>
   </div>
 
