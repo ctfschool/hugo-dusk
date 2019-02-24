@@ -9,8 +9,8 @@
   </header>
 
   <div class="summary">
-    {{ printf "%.150s" .Summary }}
-    <a href='{{ .Permalink }}' class="rmore">Read more ...</a>
+    {{ printf "%.150s..." .Summary }}
+    <a href='{{ .Permalink }}' class="rmore">{Read more}</a>
   </div>
 
   <div class="rmore">
